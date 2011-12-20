@@ -1,0 +1,3 @@
+./scripts/frontend/deps.sh
+./scripts/frontend/build.sh
+
