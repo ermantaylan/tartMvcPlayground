@@ -18,9 +18,9 @@ goog.provide('tns.views.layouts.common');
  * @this {tart.mvc.Layout}
  */
 tns.views.layouts.common = function() {
-    this.markup = '<div id="header">header</div>' +
+    this.markup = '<div id="header">header</div><br />' +
         '<div id="content">' +
         this.getContent() +
-        '</div>' +
+        '</div><br />' +
         '<div id="footer">footer</div>';
 };
